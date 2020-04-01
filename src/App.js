@@ -9,20 +9,21 @@ function App() {
   return (
     <div className="demo-big-content">
         <Layout>
-            <Header className="header-color" title="Gotardo" scroll>
+            <Header className="header-color" title="Fulano de Tal" scroll>
                 <Navigation>
-                    <Link to="/">Page 1</Link>
-                    <Link to="/page2">Page 2</Link>
-                    <Link to="/page3">Page 3</Link>
-                    <Link to="/page4">Page 4</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About me</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title="Meu Projeto Base">
+            <Drawer title="Fulano de Tal">
+
                 <Navigation>
-                    <Link to="/">Page 1</Link>
-                    <Link to="/page2">Page 2</Link>
-                    <Link to="/page3">Page 3</Link>
-                    <Link to="/page4">Page 4</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About me</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
                 </Navigation>
             </Drawer>
             <Content>

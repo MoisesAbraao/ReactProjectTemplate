@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Grid, Cell} from 'react-mdl';
 
-class Page1 extends Component {
+class Home extends Component {
     render() {
         return(
             <div style={{width: '100%', margin:'auto'}}>
-                 <Grid className='page1-grid'>
+                 <Grid className='home-grid'>
                      <Cell col={12}>
                          <img 
                             src="https://icon-library.net/images/avatar-png-icon/avatar-png-icon-23.jpg"
@@ -15,11 +15,11 @@ class Page1 extends Component {
                          />
                          
                          <div className="banner-text">
-                             <h1>Apenas um Pimpolho das Gírias </h1>
+                             <h1>Fulano de Tal </h1>
 
                              <hr/>
 
-                             <p>| Sei fazer Miojo |</p>
+                             <p>| Angular | React | View |</p>
 
                              <div className="social-links">
                                  <a href="http://www.twitter.com/moisesabraao" rel="noopener noreferrer" _target="blank">
@@ -43,4 +43,4 @@ class Page1 extends Component {
     }
 }
 
-export default Page1;
+export default Home;
